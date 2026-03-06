@@ -4,7 +4,7 @@ Repositório utilizado para armazenar os documentos da matéria de Análise de A
 Estrutura do repositório:
 
 #a-algo-2026-1
-##├─── deveres-de-casa
-##|    └─── dever-n
-##└─── testes-de-deveres
-##     └─── dever-n
+├─── deveres-de-casa
+|    └─── dever-n
+└─── testes-de-deveres
+     └─── dever-n
