@@ -3,7 +3,7 @@
 ## Análise de complexidade
 Para compreender a complexidade do algoritmo fatorial por recursão, é necessário analisar seu funcionamento: ele invoca a si mesmo até encontrar a condição de parada (```n <= 1```), e em seguida retorna cada um de seus processos até chegar na primeira chamada da função.
 
-Por se tratar de uma recursão simples, em que o valor de entrada é multiplicado pelo fatorial de seu decremento, o algoritmo apresenta um comportamento linear. Ou seja, o valor de entrada da função está diretamente relacionado com o número de chamadas realizadas, além da chamada inicial da função (exceto para 0 e 1, que encerram imediatamente a execução).
+Por se tratar de uma recursão simples, em que o valor de entrada é multiplicado pelo fatorial de seu decremento, o algoritmo apresenta um comportamento linear. Ou seja, o valor de entrada da função está diretamente relacionado com o número de chamadas realizadas (exceto para 0 e 1, que encerram imediatamente a execução).
 
 Portanto, pode-se dizer que o algoritmo tem complexidade O(n).
 
@@ -31,3 +31,4 @@ Resultado: 1000! = 4023872600770937735437024339230039857193748642107146325437999
 | 1000   | 0.0005312000030244    | 196,74 ×   |
 
 O crescimento do tempo de execução tende a ser linear, porém observa-se que uma diferença entre as proporções cresce conforme o número a ser calculado aumenta. Como a quantidade de valores testados é pequena e os tempos medidos são extremamente baixos, essa diferença pode estar relacionada ao tamanho dos números envolvidos ou outros fatores externos.
+
