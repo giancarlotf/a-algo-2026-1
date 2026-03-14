@@ -13,7 +13,7 @@ string = "Texto"
 substring(string)
 
 # Saída do terminal:
-'''
+"""
     T
     Te
     Tex
@@ -29,4 +29,4 @@ substring(string)
     t
     to
     o
-'''
+"""
