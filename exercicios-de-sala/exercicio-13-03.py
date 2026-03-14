@@ -11,3 +11,22 @@ def substring(string: str, inicio=0, fim=1):
 
 string = "Texto"
 substring(string)
+
+# Saída do terminal:
+'''
+    T
+    Te
+    Tex
+    Text
+    Texto
+    e
+    ex
+    ext
+    exto
+    x
+    xt
+    xto
+    t
+    to
+    o
+'''
