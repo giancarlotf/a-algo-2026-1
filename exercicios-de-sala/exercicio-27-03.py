@@ -20,24 +20,24 @@ def analisar_complexidade(a: int, b: int, k: int, p: int):
     if k < c:
         print("\nCaso do Teorema Mestre: 1")
         print(f"f(n) < n^{c:.4f}")
-        print(f"\tT(n) = Theta(n^{c:.4f})\n")
+        print(f"T(n) = Theta(n^{c:.4f})\n")
         return 1
     if k == c:
         # Fator de desempate: log^p(n)
         if p < 0:
             print("\nCaso do Teorema Mestre: 1")
             print(f"f(n) = n^{c:.4f}")
-            print(f"\tT(n) = Theta(n^{c:.4f})\n")
+            print(f"T(n) = Theta(n^{c:.4f})\n")
             return 1
         if p >= 0:
             print("\nCaso do Teorema Mestre: 2")
             print(f"f(n) = n^{c:.4f}")
-            print(f"\tT(n) = Theta(n^{c:.4f} * log_{b}(n))\n")
+            print(f"T(n) = Theta(n^{c:.4f} * log_{b}(n))\n")
             return 2
     if k > c:
         print("\nCaso do Teorema Mestre: 3")
         print(f"f(n) > n^{c:.4f}")
-        print(f"\tT(n) = Theta(n^{k} * log^{p}(n))\n")
+        print(f"T(n) = Theta(n^{k} * log^{p}(n))\n")
         return 3
 
 print('''\nTeorema Mestre:
